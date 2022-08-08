@@ -5,8 +5,8 @@
 
 int main(void) {
     
-	printf("TEST_1 - %d", 304);
-	printf("TEST_2 - %d", 304);
+	printf("TEST_1 - %Lf\n", sinl(-5));
+	printf("TEST_2 - %Lf", s21_sin(-5));
 	
     return 0;
 }
