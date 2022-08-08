@@ -5,16 +5,16 @@
 
 int main(void) {
     
-	printf("TEST_1 - %Lf\n", cosl(0));
-	printf("TEST_2 - %Lf\n\n", s21_cos(0));
-	printf("TEST_3 - %Lf\n", cosl(1.999));
-	printf("TEST_4 - %Lf\n\n", s21_cos(1.999));
-	printf("TEST_5 - %Lf\n", cosl(-1.676));
-	printf("TEST_6 - %Lf\n\n", s21_cos(-1.676));
-	printf("TEST_7 - %Lf\n", cosl(5.123));
-	printf("TEST_8 - %Lf\n\n", s21_cos(5.123));
-	printf("TEST_9 - %Lf\n", cosl(-5.3123));
-	printf("TEST_0 - %Lf", s21_cos(-5.3123));
+	printf("TEST_1 - %Lf\n", tanl(0));
+	printf("TEST_2 - %Lf\n\n", s21_tan(0));
+	printf("TEST_3 - %Lf\n", tanl(1.999));
+	printf("TEST_4 - %Lf\n\n", s21_tan(1.999));
+	printf("TEST_5 - %Lf\n", tanl(-1.676));
+	printf("TEST_6 - %Lf\n\n", s21_tan(-1.676));
+	printf("TEST_7 - %Lf\n", tanl(5.123));
+	printf("TEST_8 - %Lf\n\n", s21_tan(5.123));
+	printf("TEST_9 - %Lf\n", tanl(-5.3123));
+	printf("TEST_0 - %Lf", s21_tan(-5.3123));
 	
     return 0;
 }
