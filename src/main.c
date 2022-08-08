@@ -18,20 +18,20 @@ int main(void) {
 	
 	printf("\n\nNEW_TEST - [%Lf] [%Lf]\n\n", asinl(-0.9), atanl((-0.9) / sqrt(1 - pow(-0.9, 2))));
 
-	// printf("TEST_6 - %Lf\n", atanl(-50));
-	// printf("TEST_6 - %Lf\n\n", s21_atan(-50));
-	// printf("TEST_7 - %Lf\n", atanl(50));
-	// printf("TEST_7 - %Lf\n\n", s21_atan(50));
-	// printf("TEST_8 - %Lf\n", atanl(-1));
-	// printf("TEST_8 - %Lf\n\n", s21_atan(-1));
-	// printf("TEST_9 - %Lf\n", atanl(1));
-	// printf("TEST_9 - %Lf\n\n", s21_atan(1));
-	// printf("TEST_10 - %Lf\n", atanl(-0.99));
-	// printf("TEST_10 - %Lf\n\n", s21_atan(-0.99));
-	// printf("TEST_11 - %Lf\n", atanl(0.99));
-	// printf("TEST_11 - %Lf\n\n", s21_atan(0.99));
-	// printf("TEST_12 - %Lf\n", atanl(0));
-	// printf("TEST_12 - %Lf\n\n", s21_atan(0));
+	printf("TEST_6 - %Lf\n", asinl(-50));
+	printf("TEST_6 - %Lf\n\n", s21_asin(-50));
+	printf("TEST_7 - %Lf\n", asinl(50));
+	printf("TEST_7 - %Lf\n\n", s21_asin(50));
+	printf("TEST_8 - %Lf\n", asinl(-1));
+	printf("TEST_8 - %Lf\n\n", s21_asin(-1));
+	printf("TEST_9 - %Lf\n", asinl(1));
+	printf("TEST_9 - %Lf\n\n", s21_asin(1));
+	printf("TEST_10 - %Lf\n", asinl(-0.99));
+	printf("TEST_10 - %Lf\n\n", s21_asin(-0.99));
+	printf("TEST_11 - %Lf\n", asinl(0.99));
+	printf("TEST_11 - %Lf\n\n", s21_asin(0.99));
+	printf("TEST_12 - %Lf\n", asinl(0));
+	printf("TEST_12 - %Lf\n\n", s21_asin(0));
 
     return 0;
 }
