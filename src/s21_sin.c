@@ -3,19 +3,19 @@
 long double s21_sin(double num) {
     int status = 1, sign = 1;
     long double sum = (long double) num;
-    if (is_nan(num) || is_inf(num)) {
+    if (s21_isNAN(num) || s21_isINF(num)) {
         status = 0;
     } else {
-        
-        num = fmod(num, S21_PI * 2);
 
-        if (num > (S21_PI / 2.0) && num <= S21_PI) {
-            num = S21_PI - num;
-        } else if (num > S21_PI && num <= ((S21_PI * 3.0) / 2.0)) {
-            num -= S21_PI;
+        num = fmod(num, s21_PI * 2);
+
+        if (num > (s21_PI / 2.0) && num <= s21_PI) {
+            num = s21_PI - num;
+        } else if (num > s21_PI && num <= ((s21_PI * 3.0) / 2.0)) {
+            num -= s21_PI;
             sign *= (-1);
-        } else if (num > ((S21_PI * 3.0) / 2.0) && num <= (S21_PI * 2.0)) {
-            num = (2 * S21_PI) - num;
+        } else if (num > ((s21_PI * 3.0) / 2.0) && num <= (s21_PI * 2.0)) {
+            num = (2 * s21_PI) - num;
             sign *= (-1);
         }
 
@@ -27,5 +27,5 @@ long double s21_sin(double num) {
         }
 
     }
-    return status ? (sum * sign) : S21_NAN;
+    return status ? (sum * sign) : s21_NAN;
 }
